@@ -1,0 +1,11 @@
+@import "../_mixins/font-face";
+
+// Подключение шрифтов
+// @include font-face("Font name", "/font/file-name", XXX);
+
+// Миксины для шрифтов
+// @mixin ECBRegular {
+// 	font-family: 'Font name';
+// 	font-weight: XXX;
+// 	font-style: xxxxx;
+// }

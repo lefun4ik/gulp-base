@@ -1,0 +1,29 @@
+// Сброс блочной модели
+@mixin reset-model {
+	padding: 0;
+	margin: 0;
+}
+
+// Сброс списка
+@mixin list-reset {
+	list-style: none;
+	@include reset-model();
+}
+
+// Сброс ссылки
+@mixin link-reset {
+	text-decoration: none;
+	border: 0;
+	color: inherit;
+	font-family: inherit;
+}
+
+// Сброс кнопки
+@mixin btn-reset {
+	display: inline-block;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	background-color: transparent;
+	cursor: pointer;
+}

@@ -1,0 +1,7 @@
+// Контейнер
+@mixin container {
+	max-width: $container;
+	padding-left: $container-padding;
+	padding-right: $container-padding;
+	margin: 0 auto;
+}

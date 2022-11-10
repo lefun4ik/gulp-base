@@ -1,0 +1,12 @@
+// Вертикальное выравнивание по центру
+@mixin flex-center-v {
+	display: flex;
+	align-items: center;
+}
+
+// Выравнивание по центру
+@mixin flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
